@@ -8,10 +8,10 @@ version = "0.1.0"
 description = "Consumer client for collective.ocrmypdf"
 readme = "README.rst"
 authors = [
-  {name = "Audrey Roy Greenfeld", email = "audreyr@example.com"}
+  {name = "", email = ""}
 ]
 maintainers = [
-  {name = "Audrey Roy Greenfeld", email = "audreyr@example.com"}
+  {name = "", email = ""}
 ]
 classifiers = [
 
@@ -31,17 +31,15 @@ dev = [
 
 [project.urls]
 
-bugs = "https://github.com/audreyr/plone_ocrmypdf_consumer/issues"
-changelog = "https://github.com/audreyr/plone_ocrmypdf_consumer/blob/master/changelog.md"
-homepage = "https://github.com/audreyr/plone_ocrmypdf_consumer"
+bugs = "https://github.com/collective/plone_ocrmypdf_consumer/issues"
+changelog = "https://github.com/collective/plone_ocrmypdf_consumer/blob/master/changelog.md"
+homepage = "https://github.com/collective/plone_ocrmypdf_consumer"
 
 [tool.setuptools]
 package-dir = {"" = "src"}
 
 [tool.setuptools.package-data]
 "*" = ["*.*"]
-
-
 
 
 # Mypy
@@ -60,4 +58,3 @@ warn_no_return = true
 module = "tests.*"
 allow_untyped_defs = true
 disable_error_code = "attr-defined"
-

@@ -6,8 +6,8 @@ plone_ocrmypdf_consumer
 .. image:: https://img.shields.io/pypi/v/plone_ocrmypdf_consumer.svg
         :target: https://pypi.python.org/pypi/plone_ocrmypdf_consumer
 
-.. image:: https://img.shields.io/travis/audreyr/plone_ocrmypdf_consumer.svg
-        :target: https://travis-ci.com/audreyr/plone_ocrmypdf_consumer
+.. image:: https://img.shields.io/travis/collective/plone_ocrmypdf_consumer.svg
+        :target: https://travis-ci.com/collective/plone_ocrmypdf_consumer
 
 .. image:: https://readthedocs.org/projects/plone-ocrmypdf-consumer/badge/?version=latest
         :target: https://plone-ocrmypdf-consumer.readthedocs.io/en/latest/?version=latest
@@ -20,7 +20,6 @@ Consumer client for collective.ocrmypdf
 
 
 * Free software: MIT license
-* Documentation: https://plone-ocrmypdf-consumer.readthedocs.io.
 
 
 Features
