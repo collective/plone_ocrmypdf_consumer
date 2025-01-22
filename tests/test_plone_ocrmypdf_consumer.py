@@ -2,10 +2,9 @@
 
 """Tests for `plone_ocrmypdf_consumer` package."""
 
-
 import unittest
 
-from plone_ocrmypdf_consumer import plone_ocrmypdf_consumer
+from plone_ocrmypdf_consumer import main
 
 
 class TestPlone_ocrmypdf_consumer(unittest.TestCase):
