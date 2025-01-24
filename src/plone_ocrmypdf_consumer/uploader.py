@@ -51,8 +51,10 @@ def upload_processed_pdf(file_path, upload_url):
     with open(file_path, "rb") as f:
         file_data = f.read()
 
+    # Add "ocr=1" parameter to indicate that the file is processed.
+    url = upload_url + "?ocr=1"
     response = requests.patch(
-        upload_url,
+        url,
         headers=headers,
         data=file_data,
         auth=HTTPBasicAuth(API_USERNAME, API_PASSWORD),
